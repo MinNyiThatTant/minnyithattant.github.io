@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min Nyi That Tant - Cloud Developer Profile</title>
+    <link rel="stylesheet" href="styles/main.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    </head>
+<body>
+
+    <header>
+        <h1>Cloud Developer Profile</h1>
+    </header>
+
+    <div class="container">
+        
+        <section id="profile-card" class="card">
+            <div class="profile-header">
+                <img id="profile-image" src="image/My Family.jfif" alt="My Family Photo">
+                
+                <h2>👋 မင်းညီသက်တံ့</h2>
+                <p id="user-title">Full Stack Cloud Developer</p>
+                
+                <div class="social-links">
+                    <a href="https://github.com/MinNyiThatTant" target="_blank">GitHub</a> | 
+                    <a href="https://www.youtube.com/@MinNyiThatTant" target="_blank">YouTube</a>
+                </div>
+            </div>
+            
+            <div class="profile-body">
+                <h3>အကြောင်းအရာ</h3>
+                <p id="user-bio">
+                    Web, Cloud Application, RaspberryPi, IoT Security Fields များ၌ အတွေ့အကြုံရယူ၍ Microsoft Learn Student Instructor အဖြစ်လုပ်ဆောင်နေသူတစ်ဦး။
+                </p>
+                <button id="contact-button" onclick="showContact()">ဆက်သွယ်ရန်</button>
+            </div>
+        </section>
+
+        <section id="content-section" class="card">
+            <h2>📺 မင်းညီသက်တံ့ Youtube Channel မှ သင်ခန်းစာများ</h2>
+            <div id="content-list">
+                </div>
+            
+            <hr>
+
+            <div class="tech-badges">
+                <h3>🛠️ အဓိက အသုံးပြုလေ့လာနေသော နည်းပညာများ</h3>
+                <p>
+                    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+                    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+                    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+                    <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase">
+                    <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Google Cloud">
+                    <img src="https://img.shields.io/badge/Microsoft_365-0078D4?style=for-the-badge&logo=microsoft-office&logoColor=white" alt="Microsoft 365">
+                    <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=Raspberry-Pi&logoColor=white" alt="Raspberry Pi">
+                    <img src="https://img.shields.io/badge/IoT%20Security-B31F2A?style=for-the-badge&logo=secure-shell&logoColor=white" alt="IoT Security">
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 | မင်းညီသက်တံ့</p>
+    </footer>
+
+    <script src="scripts/app.js"></script>
+</body>
+</html>
